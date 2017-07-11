@@ -344,11 +344,12 @@
 			 <plugins>
 
 			<!-- To define the plugin version in your parent POM -->
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>sonar-maven-plugin</artifactId>
-				<version>2.2</version>
-			</plugin>
+			
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>2.7.1</version>
+        </plugin>
 
 				<!--Maven Surefire(Unit Testing) plugin-->
 				<plugin>
@@ -440,7 +441,7 @@
 					<artifactId>BuildStatusChecker</artifactId>
 					<version>1.0</version>
 					<configuration>
-						<cithome>D:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
+						<cithome>E:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
 						<buildstamp>${maven.build.timestamp}</buildstamp>
 						<projectname>GitIntegration</projectname>
 						<configname>${config.name}</configname>
@@ -473,11 +474,11 @@
     
 	<plugins>
 	<!-- To define the plugin version in your parent POM -->
-	<plugin>
-		<groupId>org.codehaus.mojo</groupId>
-		<artifactId>sonar-maven-plugin</artifactId>
-		<version>2.2</version>
-	</plugin>
+	 <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>2.7.1</version>
+      </plugin>
 
 	<!--Maven site genaration plugin with custom template-->
 	<plugin>
@@ -500,7 +501,7 @@
 	<plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-pmd-plugin</artifactId>
-        <version>3.0.1</version>
+        <version>3.8</version>
       </plugin>
 <!--Maven Plug in for mail configuration-->
 <plugin>
@@ -677,4 +678,3 @@
     </snapshotRepository>  
 	</distributionManagement>	
 </project>
-
