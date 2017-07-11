@@ -441,7 +441,7 @@
 					<artifactId>BuildStatusChecker</artifactId>
 					<version>1.0</version>
 					<configuration>
-						<cithome>E:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
+						<cithome>D:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
 						<buildstamp>${maven.build.timestamp}</buildstamp>
 						<projectname>GitIntegration</projectname>
 						<configname>${config.name}</configname>
